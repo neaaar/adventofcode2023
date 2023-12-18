@@ -40,7 +40,7 @@ def part1():
         sum1 += x1 * y2
         sum2 += y1 * x2
     
-    print(abs(sum1 - sum2) / 2 + edges / 2 + 1)
+    print(int(abs(sum1 - sum2) / 2 + edges / 2 + 1))
 
 def part2():
     with open(os.path.join(sys.path[0], 'day18.txt'), 'r') as file:
@@ -83,7 +83,7 @@ def part2():
         sum1 += x1 * y2
         sum2 += y1 * x2
     
-    print(abs(sum1 - sum2) / 2 + edges / 2 + 1)
+    print(int(abs(sum1 - sum2) / 2 + edges / 2 + 1))
 
 
 if __name__ == '__main__':
